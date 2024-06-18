@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+--azul-claro: #BDEBFF;
+--azul-escuro: #162967;
+--azul-button: #179bd7;
+--preto: #000;
+--branco: #fff;
+}
+
+body {
+padding: 0 1rem;
+}
+
+/* estilização do background das divs */
+#section1{
+    background-color: #BDEBFF;
+}
+
+#section3{
+    background-color: #BDEBFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* estilização do forms */
+/* Reset Geral */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização do Corpo */
+body {
+    font-family: sans-serif;
+    background-color: #BDEBFF; /* Fundo azul claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilização do Contêiner */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: transparent; /* Fundo transparente para o contêiner do formulário */
+    border-radius: 4px;
+}
+
+/* Estilização do Título do Formulário */
+.container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilização dos Campos de Entrada do Formulário */
+.container input[type="text"],
+.container input[type="email"],
+.container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Estilização Específica do Textarea */
+.container textarea {
+    height: 150px;
+    resize: none;
+}
+
+/* Estilização do Botão */
+.container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF; /* Botão azul */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .container h1 {
+        font-size: 20px;
+    }
+
+    .container button {
+        width: 100%;
+    }
+}
